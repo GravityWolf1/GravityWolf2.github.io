@@ -1,0 +1,156 @@
+html {
+    background-color: white;
+    background-image: url(../images/bats.gif);
+}
+
+body {
+    font-family: sans-serif;
+    width: 800px;
+    margin: auto;
+    border: 3px solid black;
+    box-shadow: 0px 0px 20px 15px black;
+    background-color: white;
+}
+
+.img1 {
+    float: left;
+    padding-right: 1em;
+}
+
+header {
+    border-bottom: 3px solid black;
+    background: linear-gradient(45deg, white, orange, black);
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.topbar{
+    background-color: black;
+    overflow: hidden;
+    margin: 0%;
+    width: 100%;
+}
+
+.topbar a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0%;
+    color: grey;
+}
+
+.topbar div a ul:hover li {
+    display: block;
+}
+
+.topbar div ul li {
+    display: block;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.topbar div ul {
+    display: block;
+    position: absolute;
+}
+
+.sidebar{
+    height: 100%;
+    width: 160px;
+    float: left;
+    padding-left: 0px;
+    padding-bottom: 450px;
+    padding-right: 10px;
+}
+
+.sidebar a {
+    border: 1px;
+}
+
+main{
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+h1 {
+    margin-top: 1em;
+    margin: 0%;
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 1cm;
+    margin: 0%;
+}
+
+h3 {
+    font-size: 130%;
+    margin: 0%;
+}
+
+h4 {
+    font-size: .5cm;
+    margin-bottom: .3em;
+}
+
+h5 {
+    font-size: .4cm;
+    margin-bottom: 0%;
+}
+
+h6 {
+    font-size: 110%;
+    font-display: orange;
+}
+
+a {
+   color:black;
+}
+
+a.active {
+    color: orange;
+}
+
+a.hover {
+    color: green;
+}
+
+cap {
+    font-size: 1.5cm;
+}
+
+.sidebar div ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 139px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.sidebar div ul li {
+    margin-bottom: .3em;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    list-style: none;
+}
+
+.sidebar div ul li a {
+    display: block;
+    padding: 6px 13px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    border-top: 3px solid black;
+    background: linear-gradient(45deg, black, orange, white);
+    padding: 1em;
+}
